@@ -3,7 +3,7 @@ layout: default
 title:  "the actual first post"
 date:   2021-04-28 21:22:02 -0500
 categories: film
-image: /assets/images/boys.jpeg
+image: assets/images/boys.jpeg
 image-alt: my first image
 description: I like it
 author: Jon

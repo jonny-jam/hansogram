@@ -3,7 +3,7 @@ layout: default
 title:  "oH Yeah"
 date:   2021-05-02 21:22:02 -0500
 categories: film
-image: /assets/images/oscar.jpeg
+image: assets/images/oscar.jpeg
 image-alt: my first image
 description: I like it a lot
 author: Jon
