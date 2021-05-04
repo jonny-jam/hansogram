@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">logo</div>
+      <input class="search" placeholder="search" />
+    </nav>
+    <div class="post-list">
+      <section>
+        {% for post in site.posts %}
+          <article>
+            <header>
+              <span class="avatar"></span>
+              <p>{{ post.author }}</p>
+            </header>
+
+            {% if post.video == true %}
+              <iframe width="600px" height="338px" src="{{ post.video-url }}" allowfullscreen></iframe>
+            {% else %}
+              <picture>
+                <img src="{{ post.image }}"></img>
+              </picture>
+            {% endif %}
+
+            <footer>
+              {{ post.description }}
+            </footer>
+          </article>
+        {% endfor %}
+      </section>
+      <footer>
+
+      </footer>
+    </div>
+  </body>
+</html>

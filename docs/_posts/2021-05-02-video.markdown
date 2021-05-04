@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "First video"
+date:   2021-05-02 21:22:02 -0500
+categories: video
+video: true
+video-url: https://drive.google.com/file/d/1-GynxSvYtuZ2qzLzf_-7RavCWlCGeqMs/preview
+image-alt: my first image
+description: Cool ass video
+author: Jon
+---
